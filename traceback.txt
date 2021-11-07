@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 18, in script call
+    call initialize_var
+  File "game/script.rpy", line 18, in script call
+    call initialize_var
+ScriptError: could not find label 'initialize_var'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 18, in script call
+    call initialize_var
+  File "/Volumes/renpy-7.4.10-sdk/renpy-7.4.10-sdk/renpy/ast.py", line 1490, in execute
+    rv = renpy.game.context().call(label, return_site=self.next.name)
+  File "game/script.rpy", line 18, in script call
+    call initialize_var
+  File "/Volumes/renpy-7.4.10-sdk/renpy-7.4.10-sdk/renpy/script.py", line 918, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'initialize_var'.
+
+Darwin-21.1.0-x86_64-i386-64bit
+Ren'Py 7.4.10.2178
+test 1.0
+Sat Nov  6 20:13:08 2021
