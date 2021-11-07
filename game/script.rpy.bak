@@ -16,7 +16,7 @@ define R = Character("Roommate", color='#2A7FBA')
 label start:
     play music "audio/bgm_happy_upbeat.mp3" volume 0.15
 
-    call initialize_var from _call_initialize_var
+    call initialize_var
 
     
 

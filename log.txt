@@ -1,39 +1,38 @@
-Sun Nov  7 01:12:35 2021
+Sun Nov  7 03:38:42 2021
 Darwin-21.1.0-x86_64-i386-64bit
 Ren'Py 7.4.10.2178
  
 
-Bootstrap to the start of init.init took 0.06s
+Bootstrap to the start of init.init took 0.12s
 Early init took 0.00s
 Loader init took 0.01s
-Loading error handling took 0.05s
-Loading script took 0.17s
+Loading error handling took 0.06s
+Loading script took 0.13s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.05s
+Running init code took 0.06s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Backing up script files to '/Users/yuehemao/Library/RenPy/backups/test':
-Dump and make backups. took 0.06s
+Dump and make backups. took 0.04s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.01s
+Initial gc. took 0.02s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.02s
 Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
 Prepare screens took 0.04s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
+Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.21s
+Interface start took 0.65s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1440, 900)
@@ -43,5 +42,31 @@ Vendor: 'Apple'
 Renderer: 'Apple M1'
 Version: '2.1 Metal - 76.1'
 Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(926, 521) drawable=(1852, 1042)
+Screen sizes: virtual=(1280, 720) physical=(1338, 753) drawable=(2676, 1506)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1440, 790) drawable=(2880, 1580)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1440, 900) drawable=(2880, 1800)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+LoaCleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Screen sizes: virtual=(1280, 720) physical=(1338, 753) drawable=(2676, 1506)
+Maximum texture size: 4096x4096
+um texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Screen sizes: virtual=(1280, 720) physical=(1440, 787) drawable=(2880, 1574)
 Maximum texture size: 4096x4096
